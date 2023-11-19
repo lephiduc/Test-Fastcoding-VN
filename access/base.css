@@ -1,0 +1,31 @@
+:root{
+    --back: #000000;
+    --orange: #FF9C51;
+    --light-white: #F5F5F5;
+    --white: #ffff;
+    --gray-text: #848485;
+    --light-back-title: #343434;
+}
+html.body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.wrapper{
+    max-width: 1160px;
+    width: 100%;
+    margin-inline: auto;
+}
+.line{
+    width: 64px;
+    height: 3px;
+    background: orange;
+}
+.header__btn{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+}
+p{
+    font-size: 16px;
+    color: var(--gray-text);
+}

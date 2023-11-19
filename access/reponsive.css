@@ -1,0 +1,265 @@
+
+/* screen 1080x1920 */
+@media screen and (max-width: 1080px){
+    .wrapper-header{
+        width: 900px;
+    }
+    .wrapper-banner{
+        width: 1000px;
+    }
+    .wrapper-tab-left{
+        width: 1000px;
+    }
+    .wrapper-sub1{
+        width: 1000px;
+    }
+    .wrapper-sub1{
+        width: 1000px;
+    }
+    .wrapper-awesome{
+        width: 1000px;
+    }
+    .warpper-contact{
+        width: 1000px;
+    }
+}
+/*  end screen 1080x1920 */
+
+/* screen Ipad pro 1024x1366 */
+@media screen and (max-width: 1024px) {
+    /* Header */
+    .header{
+        padding-top: 20px;
+    }
+    .wrapper-header{
+        max-width: 1024px;
+        flex-direction: column;
+    }
+    /* end Header */
+
+    /* Banner */
+    .banner{
+        height: 700px;
+    }
+    .wrapper-banner{
+        width: 1024px;
+        
+    }
+    .banner-left{
+        max-width: 50%;
+        padding-left: 100px;
+    }
+    /* end Banner */
+
+    /* Tabbing */
+    .wrapper-tab-left{
+        padding: 100px;
+    }
+    .tab-left-describe_button{
+        display: flex;
+        justify-content: center;
+    }
+    /* end Tabbing */
+
+    /* Sub1 */
+    .sub1{
+        padding: 100px;
+        margin-top: 100px;
+    }
+    .sub1-left-img{
+        width: 1400px;
+        height: 300px;
+    }
+    .sub1-right-icon{
+        width: 150px;
+        height: 40px;
+    }
+    /* end Sub1 */
+
+    /* Sub2 */
+    .sub2{
+        padding: 100px;
+    }
+    /* end Sub2 */
+
+    /* Awesome */
+    .awesome{
+        padding: 100px;
+    }
+    /* end Awesome */
+
+    /* Design */
+    /* end Design */
+    
+    /* Contact */
+    .contact{
+        padding: 100px;
+    }
+    /* end Contact */
+}
+/*  end screen Ipad pro  */
+
+/* screen Iphone X 375X812 */
+@media screen and (max-width: 400px) {
+    /* Header */
+    .header-nav__list{
+        flex-direction: column;
+        gap: 2px;
+        height: 180px;
+    }
+    /* end Header */
+
+    /* Banner */
+    .banner{
+        width: 370px;
+        height: 850px;
+    }
+    .wrapper-banner{
+        flex-direction: column;
+    }
+    .banner-left{
+        width: 370px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner-img__logo{
+       opacity: 0;
+    }
+    .banner-title h2{
+        font-size: 15px;
+        width: 370px;
+        padding-right: 30px;
+        text-align: center;
+        margin-top: -90px;
+    }
+    .line-banner{
+        opacity: 0;
+    }
+    .banner-text{
+        text-align: center;
+        padding-right: 25px;
+        margin-top: -10px;
+    }
+    .banner-form{
+        margin-top: 50px;
+        
+    }
+    .banner-right{
+        width: 350px;
+        padding: 0px 20px;
+    }
+    .banner-right-title h2{
+        width: 100px;
+    }
+    .banner-btn-{
+        display: flex;
+        justify-content: center;
+        padding-right: 25px;
+    }
+    /* end Banner */
+
+    /* Tabbing */
+    .tabbing{
+        height: 1100px;
+    }
+    .wrapper-tab-left{
+        flex-direction: column;
+        margin-top: -175px;
+        
+    }
+    .tab-left-box{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        height: 60px;
+        padding-right: 25px;
+    }
+    .tab-left{
+        flex-direction: column;
+        width: 370px;
+        padding: 0px;
+    }
+    .tab-box__content{
+        width: 200px;
+        height: 60px;
+        gap: 20px
+    }
+    .tab-left-describe{
+        width: 370px;
+        padding-left: 0px;
+        padding-right: 182px;
+    }
+    .tab-left-describe__title h3{
+        margin-top: 30px;
+        text-align: center;
+        padding:0px;
+    }
+    .tab-left-describe__text p{
+        margin-top: -12px;
+    }
+    
+    .tab-right__img{
+        margin-top: 50px;
+    }
+    /* end Tabbing */
+
+    /* Sub1 */
+    .wrapper-sub1{
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sub1-left-img{
+        padding-right: 154px;
+        width: 1400px;
+        height: 206px;
+    }
+    .sub1-right{
+        width: 230px;
+        padding: 0px;
+    }
+    .sub1-right-icon{
+        height: 25px;
+    }
+    .fa-cloud-arrow-down{
+        font-size: 10px;
+    }
+    /* end Sub1 */
+
+    /* Sub2 */
+    .sub2{
+        height: 800px;
+    }
+    .sub2-left{
+        width: 230px;
+        padding: 0px;
+    }
+    .sub2-right{
+        padding: 0px;
+    }
+    /* end Sub2 */
+
+    /* Awesome */
+    .awesome-below{
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* end Awesome */
+
+    /* Design */
+    .warpper-design-text{
+        padding: 0px 10px;
+    }
+    /* end Design */
+
+    /* Contact */
+    .contact-from{
+        flex-direction: column;
+        width: 350px;
+    }
+    .contact-from-mesage{
+        padding: 0px;
+    }
+    /* end Contact */
+}
+/* screen Iphone X 375X812 */
